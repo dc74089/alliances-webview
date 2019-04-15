@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Alliances Webview</string>
+    <string name="app_name">Alliances</string>
     <string name="title">We\'re Offline</string>
-    <string name="content">In order to create an offline FIRSTAlliances experience, we have disabled some buttons.</string>
+    <string name="content">This app is an offline version of the FIRSTAlliances website.\n\nIn order to create an offline FIRSTAlliances experience, we have disabled some buttons around the site that deal with registering, logging in, and messaging teams that will appear greyed-out.\n\nOtherwise, this app is a perfect clone of FIRSTAlliances.org as it was on the morning of Exploding Bacon\'s Chairman\'s Award judging. Feel free to look around here, or visit the site on your phone at firstalliances.org</string>
 </resources>
