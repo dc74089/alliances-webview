@@ -1,9 +1,10 @@
 package org.firstalliances.allianceswebview;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.app.AlertDialog;
 import android.os.Bundle;
 import android.webkit.WebView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
     WebView webView;
@@ -12,6 +13,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+
+        builder.setTitle(R.string.title)
+                .setMessage(R.string.content)
+                .show();
 
         webView = findViewById(R.id.webView);
         webView.getSettings().setJavaScriptEnabled(true);

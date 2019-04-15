@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Alliances Webview</string>
+    <string name="title">We\'re Offline</string>
+    <string name="content">In order to create an offline FIRSTAlliances experience, we have disabled some buttons.</string>
 </resources>
